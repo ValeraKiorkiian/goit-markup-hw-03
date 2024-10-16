@@ -140,6 +140,7 @@ color: #2e2f42;
 }
 .section-two-color {
     background-color: #f4f4fd;
+    margin-top: 120px 0;
 }
 .section-two {
     font-weight: 700;
@@ -153,7 +154,6 @@ color: #2e2f42;
 }
 .section-list-two{
     display: flex;
-    margin-top: 120px;
     gap: 24px;
 }
 .section-two-col {
