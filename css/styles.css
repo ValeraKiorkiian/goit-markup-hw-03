@@ -124,7 +124,7 @@ color: #2e2f42;
     gap: 24px;
 }
 .section-element{
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px)/4);
 }
 .section-h {
     font-weight: 500;
@@ -236,7 +236,7 @@ color: #2e2f42;
     color: #4d5ae5;
     text-transform: uppercase;
     display: inline-block;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 .footer-studio {
     font-family: "Raleway", sans-serif;
@@ -255,13 +255,15 @@ color: #2e2f42;
 ul{
     list-style-type: none;
 }
-.visually-hidden{
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            padding: 0;
-            overflow: hidden;
-            border: 0;
-            clip: rect(0 0 0 0);
-        }
+ .visually-hidden:not(:focus):not(:active) {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
+ }
