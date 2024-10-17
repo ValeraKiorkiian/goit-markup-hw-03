@@ -124,7 +124,7 @@ color: #2e2f42;
     gap: 24px;
 }
 .section-element{
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px)/4);
 }
 .section-h {
     font-weight: 500;
