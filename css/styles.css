@@ -181,6 +181,7 @@ color: #2e2f42;
 }
 .section-three{
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 .portfolio {
     font-weight: 700;
@@ -222,6 +223,8 @@ color: #2e2f42;
 }
 .footer {
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-web {
     font-family: "Raleway", sans-serif;
@@ -241,7 +244,13 @@ color: #2e2f42;
     color: #f4f4fd;
     text-transform: uppercase;
 }
+.footer-web,
+.footer-studio{
+    display: inline-block;
+    padding-bottom: 16px;
+}
 .footer-p {
     color: #f4f4fd;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
